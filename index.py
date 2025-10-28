@@ -43,8 +43,6 @@ plt.scatter(training_inputs[:, 0], training_inputs[:, 1],
             c=labels, cmap='bwr', edgecolors='k', s=100)
 plt.xlabel("x1")
 plt.ylabel("x2")
-plt.text(0.1, 1.1, "Модель не може провести межу між класами",
-         fontsize=9, color='gray')
 plt.show()
 
 # === 3. Додавання проміжної ознаки (x1*x2) ===
